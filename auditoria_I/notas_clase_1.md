@@ -33,7 +33,7 @@ Etimológicamente del latín *auditorius* y de esta proviene auditor, que tiene 
 **Herrera, D(2011). Auditoría de Sistemas de Información(Tesis). Obtenida el 25 de abril de 2021, de** [Academia.edu](https://www.academia.edu/7336888/Auditor%C3%ADa_de_Sistemas_de_Informaci%C3%B3n)
 
 > Según Tamayo(2007)
->> Se puede concluir que la auditoría de sistemas se encarga de la evaluación de todos aquellos aspectos relacionados con los recursos con los recursos informáticos de la organización como software, hardware, talento humano, funciones y procedimientos, enfocados todos ellos desde el punto de vista administrativo, técnico y de seguridad; y propende por prevenir a la empresa de aquellos riesgos originados por omisiones, errores, violaciones, actos mal intencionados, desastres naturales, etc., asesorando y proporcionando recomendaciones y sugerencias a nivel directivo para lograr un adecuado control interno de la empresa.
+>> Se puede concluir que la auditoría de sistemas se encarga de la evaluación de todos aquellos aspectos relacionados con los recursos informáticos de la organización como software, hardware, talento humano, funciones y procedimientos, enfocados todos ellos desde el punto de vista administrativo, técnico y de seguridad; y propende por prevenir a la empresa de aquellos riesgos originados por omisiones, errores, violaciones, actos mal intencionados, desastres naturales, etc., asesorando y proporcionando recomendaciones y sugerencias a nivel directivo para lograr un adecuado control interno de la empresa.
 
 **Tamayo, A(2007), Auditoría de sistemas una visión práctica. Obtenida el 25 de abril de 2021, de** [Repositorio UNAL](https://repositorio.unal.edu.co/handle/unal/60273)
 
