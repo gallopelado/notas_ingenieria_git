@@ -1,6 +1,9 @@
+#### Índice
+- [Estructura TI ideal](#estructura-ti-ideal)
+- [Introducción](#introducción)
 ### Estructura TI ideal
 
-### Introducción {#intro-id}
+### Introducción
 > Según Henry Fayol, citado por Hall (1981), define a la organización como: 
 >> Organizar un negocio es dotarlo con todo lo necesario para su funcionamiento: materias primas, herramientas, capital y personal.
 
