@@ -1,18 +1,12 @@
 #### Índice
 
 - [Estructura TI ideal](#estructura-ti-ideal)
-
 - [Introducción](#introducción)
-
 - [Planteamiento](#planteamiento)
-
 - [Conclusión](#conclusión)
+- [Bibliografía](#bibliografía)
 
-- [Introducción](#introducción)
-
-- [Planteamiento](#planteamiento)
-  
-  ### Estructura TI ideal
+### Estructura TI ideal
 
 ### Introducción
 
@@ -89,14 +83,18 @@ Y dependiendo de la gobernanza, podemos recopilar los siguientes diagramas:
 
 En estos ejemplos vemos un patrón común no menos importante que resaltar **IT-Security o Seguridad TI**, este departamento esta bien diferenciado del resto, representado como función, pero de valor fundamental para la estructura, es anterior a los departamentos subordinados al CEO, esto no quiere decir que los últimos sean de escasa relevancia, sino que todas pasa por el filtro funcional de la seguridad desarollada e implementada en TI. Ya mencionamos que el capital más valioso de la compañía es su información. No detallaremos qué incluyen o debería incluir el departamento ya que esto es dependiente de la recopilación de datos en el contexto de la empresa, su modelo de negocio y estructura orgánica, pero se demuestra a grandes rasgos que ésta debe aparecer separada de otros departamentos, con interdependencia de ellos para lograr el control deseado hacia los objetivos propuestos.
 
+[Ir al índice](#índice)
+
 ### Conclusión
 
 Finalizamos los conceptos claves para el análisis de qué necesitamos para elaborar una estrutura orgánica, documentos a recopilar e importancia de las mismas como una fuente para generar modelos útiles sin dejar de lado la seguridad como eje central de todo departamento TI, hicimos hincapié en su interdependencia hacia otros departamentos de la empresa sin recortar los niveles o prioridades, luego ejemplificamos modelos de otros autores con el objetivo de enriquecer la perspectiva y contexto que se necesita al investigar una estructura ideal.
 
-
+[Ir al índice](#índice)
 
 ### Bibliografía
 
 Moreno, L. (2003). *LA AUDITORIA EN LA INFORMÁTICA* (Ensayo). Universidad de Colima, México, COQUIMATLÁN, COLIMA.
 
 Hoogenraad, W. (2020, julio 27). *El departamento de TI en una estructura corporativa*. Recuperado de https://es.itpedia.nl/2020/07/27/de-it-afdeling-in-een-corporate-structure/
+
+[Ir al índice](#índice)
