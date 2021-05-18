@@ -1,6 +1,9 @@
 #### Índice
 
 - [Estructura TI ideal](#estructura-ti-ideal)
+- [Introducción](#introducción)
+- [Planteamiento](#planteamiento)
+- [Conclusión](#conclusión)
 
 - [Introducción](#introducción)
 
@@ -75,11 +78,11 @@ Con dicha información podremos generar los siguientes diagramas:
 
 Y dependiendo de la gobernanza, podemos recopilar los siguientes diagramas:
 
-- Empresas pequeñas![Empresas pequeñas](/home/juan/Documentos/Universidad/Ingeniería/notas_ingenieria_git/auditoria_I/images/IT-department-1-768x576.jpg.webp)
+- Empresas pequeñas![Empresas pequeñas](../images/it_dep_1.png)
 
-- Empresas medianas ![Empresas medianas](/home/juan/Documentos/Universidad/Ingeniería/notas_ingenieria_git/auditoria_I/images/IT-department-2-768x576.jpg.webp)
+- Empresas medianas ![Empresas medianas](../images/it_dep_2.png)
 
-- Empresas grandes ![Empresas grandes](/home/juan/Documentos/Universidad/Ingeniería/notas_ingenieria_git/auditoria_I/images/IT-department-3.jpg.webp)
+- Empresas grandes ![Empresas grandes](../images/it_dep_3.png)
 
 En estos ejemplos vemos un patrón común no menos importante que resaltar **IT-Security o Seguridad TI**, este departamento esta bien diferenciado del resto, representado como función, pero de valor fundamental para la estructura, es anterior a los departamentos subordinados al CEO, esto no quiere decir que los últimos sean de escasa relevancia, sino que todas pasa por el filtro funcional de la seguridad desarollada e implementada en TI. Ya mencionamos que el capital más valioso de la compañía es su información. No detallaremos qué incluyen o debería incluir el departamento ya que esto es dependiente de la recopilación de datos en el contexto de la empresa, su modelo de negocio y estructura orgánica, pero se demuestra a grandes rasgos que ésta debe aparecer separada de otros departamentos, con interdependencia de ellos para lograr el control deseado hacia los objetivos propuestos.
 
