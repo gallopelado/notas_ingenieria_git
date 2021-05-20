@@ -14,7 +14,7 @@
 > 
 > > Organizar un negocio es dotarlo con todo lo necesario para su funcionamiento: materias primas, herramientas, capital y personal.
 
-Quiero empezar con estas palabras ubicándonos en el contexto de crecimiento humano como especie con habilidades para la sociedad, es decir, capaz de construir cosas ayudado de conocimientos científicos y tecnológicos. No somos animales completamente gregarios como las abejas u hormigas ni solitarios como los tigres, necesitamos los unos de los otros en un lazo de interdependencia para realizarnos; es aquí donde la organización toma fuerza, desde la construcción de imperios, obras arquitectónicas hasta empresas multinacionales. Como el ser humano avanza en conocimiento y poder, sus herramientas deben acompañarlas en ese proceso evolutivo, una de ellas es del departamento de tecnología informática, con sus siglas TI. Específicamente en toda organización es necesaria, porque pasamos el conocimiento de tabillas de barro, papiros hasta la invención de la imprenta, la revolución industrial ha traído grandes avances, con ella las computadoras, la digitalización de documentos, la información. Este es un bien de capital preponderante para todo aquel que necesite gestionar el destino del emprendimiento. Ha dejado de ser un anexo para comportarse como el núcleo que alimenta el análisis para la toma de decisiones, generación de predicciones basadas en estadística, creación de modelos que explican la realidad económica. Todos estos beneficios descansan en el departamente TI, esta necesita una estructura apropiada para funcionar con eficiencia y eficacia, mejorándose continuamente a medida que avanza la ciencia.
+Quiero empezar con estas palabras ubicándonos en el contexto de crecimiento humano como especie con habilidades para la sociedad, es decir, capaz de construir cosas ayudado de conocimientos científicos y tecnológicos. No somos animales completamente gregarios como las abejas u hormigas ni solitarios como los tigres, necesitamos los unos de los otros en un lazo de interdependencia para realizarnos; es aquí donde la organización toma fuerza, desde la construcción de imperios, obras arquitectónicas hasta empresas multinacionales. Como el ser humano avanza en conocimiento y poder, sus herramientas deben acompañarlas en ese proceso evolutivo, una de ellas es del departamento de tecnología informática, con sus siglas TI. Específicamente en toda organización es necesaria, porque pasamos el conocimiento de tabillas de barro, papiros hasta la invención de la imprenta, la revolución industrial ha traído grandes avances, con ella las computadoras, la digitalización de documentos, la información. Este es un bien de capital preponderante para todo aquel que necesite gestionar el destino del emprendimiento. Ha dejado de ser un anexo para comportarse como el núcleo que alimenta el análisis para la toma de decisiones, generación de predicciones basadas en estadística, creación de modelos que explican la realidad económica. Todos estos beneficios descansan en el departamento TI, esta necesita una estructura apropiada para funcionar con eficiencia y eficacia, mejorándose continuamente a medida que avanza la ciencia.
 
 [Ir al índice](#índice)
 
@@ -22,7 +22,7 @@ Quiero empezar con estas palabras ubicándonos en el contexto de crecimiento hum
 
 > En 2003, para la obtención del grado de *Maestra en Ciencias Computacionales*, Lorena Moreno en su ensayo *"La Auditoría informática"* define:
 > 
-> > Una vez elaborada la planeación de la auditoría, la cuál servirá como plan maestro de los tiempos, costros y prioridades, y como medio de control de la auditoría, se debe empezar la recolección de la información.
+> > Una vez elaborada la planeación de la auditoría, la cuál servirá como plan maestro de los tiempos, costos y prioridades, y como medio de control de la auditoría, se debe empezar la recolección de la información.
 > > Se procederá a efectuar la revisión sistematizada del área a través de la observación y entrevistas de fondo en cuanto a:
 > > 
 > > 1. Estructura Orgánica:
@@ -87,7 +87,7 @@ En estos ejemplos vemos un patrón común no menos importante que resaltar **IT-
 
 ### Conclusión
 
-Finalizamos los conceptos claves para el análisis de qué necesitamos para elaborar una estrutura orgánica, documentos a recopilar e importancia de las mismas como una fuente para generar modelos útiles sin dejar de lado la seguridad como eje central de todo departamento TI, hicimos hincapié en su interdependencia hacia otros departamentos de la empresa sin recortar los niveles o prioridades, luego ejemplificamos modelos de otros autores con el objetivo de enriquecer la perspectiva y contexto que se necesita al investigar una estructura ideal.
+Finalizamos los conceptos claves para el análisis de qué necesitamos para elaborar una estructura orgánica, documentos a recopilar e importancia de las mismas como una fuente para generar modelos útiles sin dejar de lado la seguridad como eje central de todo departamento TI, hicimos hincapié en su interdependencia hacia otros departamentos de la empresa sin recortar los niveles o prioridades, luego ejemplificamos modelos de otros autores con el objetivo de enriquecer la perspectiva y contexto que se necesita al investigar una estructura ideal.
 
 [Ir al índice](#índice)
 
