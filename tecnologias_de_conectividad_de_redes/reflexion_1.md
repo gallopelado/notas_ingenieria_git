@@ -1,0 +1,4 @@
+### FORO 2: REFLEXIÓN
+#### Luego de haber visto los materiales multimedia  -del apartado Generalidades- haga una breve reflexión acerca del vídeo "¿ Quién se ha llevado mi queso ? y con relación a nuestra materia
+
+La historia es muy conmovedora, a veces con el pasar del tiempo no nos damos cuenta que las cosas cambian a nuestro alrededor, es aquella zona de confort la que nos mantiene alertagada nuestra vida, aprendizaje, con relación a nuestra disciplina, el no moverse para buscar nuevos conocimientos nos condena a la obsolescencia, a conocimiento anticuado, siempre hay que estar en constante búsqueda de la innovación y desarrollo para seguir construyendo nuevo conocimiento.
