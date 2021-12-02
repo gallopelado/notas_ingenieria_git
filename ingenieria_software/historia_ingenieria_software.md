@@ -53,3 +53,11 @@ Historiadores y sociólogos han desacreditado la noción de la ingeniería es ap
 
 ## Conclusión
 Consideramos la historia de la ingeniería de software como un conocimiento necesario para todo practicante, profesional debido a que gracias a esos momentos de dificultades y necesidades tecnológicas, surgieron soluciones que fueron cerrando la brecha del desconocimiento sobre esta disciplina, creando un principios, métodos probados y válidos aplicados a nivel tecnológicos y científicos.
+
+## Bibliografía
+> Aspray, W., Reinhard, K.-S., y Parnas, D. L. (1996, agosto 26). History of Software Engineering. Presentado en Position Papers for Dagstuhl Seminar 9635 on History of Software Engineering.
+
+> Wiley, J. (2002). Encyclopedia of Software Engineering. Wiley Online Library. Recuperado de https://onlinelibrary.wiley.com/doi/book/10.1002/0471028959
+
+> S. Pressman, R. (s. f.). Software Engineering: A practitioner’s Approach (Sexta edición). New York: Mc Graw Hill. Recuperado de https://books.google.com.py/books?hl=en&lr=&id=bL7QZHtWvaUC&oi=fnd&pg=PR30&dq=software+engineering&ots=O8wf8PvM3e&sig=-VMZvQaui3apc-Iriw3lD-CX-WY&redir_esc=y#v=onepage&q=software%20engineering&f=false
+
