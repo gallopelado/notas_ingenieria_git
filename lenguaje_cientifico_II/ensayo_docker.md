@@ -1,5 +1,6 @@
 #### Índice
 - [Un poco de historia](#un-poco-de-historia)
+  - [Línea de tiempo](#línea-de-tiempo)
   - [1979: Unix V7](#1979-unix-v7)
   - [2000: FreeBSD Jails](#2000-freebsd-jails)
   - [2001: Linux VServer](#2001-linux-vserver)
@@ -20,6 +21,9 @@
 
 ### Un poco de historia
 [Recuperado del inglés - 9 de Octubre, 2022 - "Aqua Blog"](https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016)
+
+#### Línea de tiempo
+![linea de tiempo](./img/timeline.drawio.png)
 
 #### 1979: Unix V7
 Durante el desarrollo del Unix V7 en 1979, un sistema llamado *chroot* fue introducido, cambiando el directorio raíz(root) de un proceso y sus hijos(children) a una nueva ubicación en el sistema de archivos. Este progreso fue el inicio del proceso de aislamiento: separando el acceso de ficheros por cada proceso. *Chroot* fue agregado a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) en 1982.
