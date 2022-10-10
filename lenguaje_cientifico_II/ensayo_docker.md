@@ -1,4 +1,8 @@
 #### Índice
+- [Introducción](#introducción)
+- [Planteamiento del problema](#planteamiento-del-problema)
+- [Objetivo general y específicos](#objetivo-general-y-específicos)
+- [Justificación](#justificación)
 - [Un poco de historia](#un-poco-de-historia)
   - [Línea de tiempo](#línea-de-tiempo)
   - [1979: Unix V7](#1979-unix-v7)
@@ -18,6 +22,29 @@
     - [Despliegue responsivo y escalable](#despliegue-responsivo-y-escalable)
     - [Ejecutando más cargas de trabajo en el mismo hardware](#ejecutando-más-cargas-de-trabajo-en-el-mismo-hardware)
 - [La arquitectura de Docker](#la-arquitectura-de-docker)
+
+
+### Introducción
+El objeto de estudio se centra en la investigación de carácter bibliográfico al sistema de gestión de contenedores Docker. Esta será descrita en cuanto a su historia, problemas que originaron su creación, definición, características principales, beneficios y alcances para la demostración práctica en la construcción de un pequeño prototipo.
+
+### Planteamiento del problema
+Recuperado del inglés - 10 de Octubre, 2022 [Docker(Inglés)](https://www.docker.com/why-docker/)
+
+Según la web oficial de *Why Docker?*:
+> ¿Por qué Docker?
+>>  Desarrollar aplicaciones hoy requiere mucho más tiempo que solamente escribir código. Variedad de lenguajes de programación, marcos de trabajo, arquitecturas e interfaces discontinuas entre herramientas por cada ciclo de vida crean una enorme complejidad. Docker lo simplifica y acelera el flujo de trabajo, mientras da a los desarrolladores la libertad de innovar con sus herramientas, conjunto de aplicaciones y despliegues por cada proyecto.
+
+A pesar del avance continuo de la ciencia y tecnología informática, la gestión de aplicaciones siempre ha sido un reto para los agentes TI. El crecimiento de software es constante aumentando costes al momento de distribuirlas e implementarlas al usuario final de forma rápida y concisa. Destacan problemas tales como la **limitación al aumentar hardware, aumento de complejidad al desplegar aplicaciones, difícil actualización o agregación de nueva tecnología, lentitud en la búsqueda de errores y falta de seguridad en los centros de datos al aumentar los componentes tecnológicos.**
+
+### Objetivo general y específicos
+- Investigar, documentar, publicar información acerca de Docker como sistemas de gestión de contenedores y desarrollar prototipo aplicado
+  - Investigar fuentes oficiales, blogs de tecnología, foros referentes a Docker y otros sistemas de gestión de contenedores
+  - Documentar información acerca de Docker y otros sistemas de gestión de contenedores
+  - Publicar la información recabada acerca de Docker y otros sistemas de gestión de contenedores
+  - Desarrollar un prototipo práctico sencillo para demostrar las características de Docker
+
+### Justificación
+La investigación trata sobre obtener información tecnológica de contenedores, sistemas con la capacidad de aislar otros sistemas usando los mismos recursos de un servidor. El motivo es explicar las conveniencias y características de agregar esta tecnología al despliegue de aplicaciones tanto en un entorno local de desarrollo como en producción. Las necesidades del departamento de redes, desarrollo e implementación de software se verán beneficiadas al transformar su trabajo haciéndolo rápido, gestionable, seguro y productivo.
 
 ### Un poco de historia
 [Recuperado del inglés - 9 de Octubre, 2022 - "Aqua Blog"](https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016)
