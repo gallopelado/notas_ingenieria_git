@@ -22,6 +22,13 @@
     - [Despliegue responsivo y escalable](#despliegue-responsivo-y-escalable)
     - [Ejecutando más cargas de trabajo en el mismo hardware](#ejecutando-más-cargas-de-trabajo-en-el-mismo-hardware)
 - [La arquitectura de Docker](#la-arquitectura-de-docker)
+- [El Docker daemon](#el-docker-daemon)
+- [El cliente de Docker](#el-cliente-de-docker)
+- [Docker Desktop](#docker-desktop)
+- [Registros Docker](#registros-docker)
+- [Objetos de Docker](#objetos-de-docker)
+  - [Imágenes](#imágenes)
+  - [Contenedores](#contenedores)
 
 
 ### Introducción
@@ -117,4 +124,31 @@ La naturaleza portable y ligera de Docker también hace fácil para administrar 
 Docker es ligero y rápido. Provee una alternativa viable costo-efectiva de un *hypervisor-based virtual machine*, máquina virtual basada en hipervisor, puedes usar más de tu capacidad de cómputo para lograr tus objetivos de negocio. Docker es perfecto para entornos de alta densidad y para pequeños y medianos despliegues donde tu necesitas hacer más con menos recursos.
 
 ### La arquitectura de Docker
-...En desarrollo
+Docker está basado en la arquitectura **cliente-servidor**. El cliente de Docker se comunica con el Docker *daemon*, el cual realiza el arranque, construcción, ejecución y distribución de los contenedores. El cliente de Docker y el daemon pueden ejecutarse en el mismo sistema, o puedes conectarte al cliente de Docker desde un daemon remoto. El cliente de Docker y el daemon se comunican usando una API REST, sobre sockets UNIX o una interfaz de red. Otro cliente de Docker es *Docker Compose*, este permite que las aplicaciones trabajen consistiendo en un conjunto de contenedores.
+
+![Gráfico](./img/architecture.svg)
+
+### El Docker daemon
+El Docker daemon (`dockerd`) escucha por la API de peticiones y gestiona los objetos tales como imágenes, contenedores, redes y volúmenes. Un daemon también puede se comunica con otros daemons para gestionar los servicios de Docker.
+
+### El cliente de Docker
+El cliente de docker (`docker`) es la vía primaria para interactuar con diversos usuarios de Docker. Cuando se utilizan comandos como `docker run`, el cliente envía estos comandos a `dockerd`, que los lleva a cabo. El comando `docker` utiliza la Docker API. El cliente de Docker puede comnicarse con más de un daemon.
+
+### Docker Desktop
+Docker Desktop es una forma fácil de instalar la aplicación en Mac, Windows o Linux, eso te permite construir y compartir aplicaciones contenerizadas y microservicios.
+
+### Registros Docker
+El registro de Docker almacena imágenes. DockerHub es un registro público que cualquiera puede usar, y Docker está configurado para mirar las imágenes en Docker Hub por defecto. También puedes ejecutar tu registro privado.
+Cuando se utiliza el comando `docker pull` o `docker run`, las imágenes requeridas son obtenidas del registro preconfigurado. Cuando se utiliza el comando `docker push`, la imágen es enviada y configurada en el repositorio.
+
+### Objetos de Docker
+Cuando se utiliza Docker, se están creando y usando imágenes, contenedores, redes, volúmenes, conectores y otros objetos. Esta sección es un breve vistazo de algunos de estos objetos.
+
+#### Imágenes
+Una *imagen* es una plantilla de sólo lectura con algunas instrucciones para crear un contenedor de Docker. Con frecuencia, una imágen está *basada* en otra imagen, con alguna configuración adicional. Por ejemplo, podrías construir una imagen que está basada en `ubuntu`, instalar un servidor web Apache en tu aplicaciones, también los detalles de configuración necesarios para hacer funcionar la aplicación.
+Podrías crear tus propias imágenes o usarías estas creadas por otras personas y publicadas en un registro. Para construir tu imagen, debes crear un *Dockerfile* con una sintaxis simple definiendo los pasos necesarios para crear la imagen y ejecutarla. Cada instrucción de un Dockerfile crea una capa en la imagen. Cuando cambias el Dockerfile y regeneras la imagen, solo estas capas las cuales han cambiado son regeneradas. Esta es la parte de porque las imágenes son livianas, pequeñas, y rápidas, comparadas con otras tecnologías de virtualización.
+
+#### Contenedores
+Un contenedor es una instancia ejecutable de una imagen. Puedes crear, iniciar, parar, mover o eliminar un contenedor usando la API de Docker o CLI. Puedes conectarte un contenedor a una o más redes, relacionarlo al almacenamiento o incluso crear una nueva imagen basada en el estado actual de la misma.
+Por defecto, un contenedor está relativamente bien aislado de otros contenedores y su host. Puedes controlar como la red, el almacenamiento u otros subsistemas de un contendor está aislado de otros contenedores.
+Un contenedor es definido por su imagen también como sus opciones de configuración proveídas. Cuando un contenedor es removido, ningún cambio es almacenado y la persistencia desaparece.
