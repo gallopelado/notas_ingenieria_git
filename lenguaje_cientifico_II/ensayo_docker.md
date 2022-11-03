@@ -29,6 +29,14 @@
 - [Objetos de Docker](#objetos-de-docker)
   - [Imágenes](#imágenes)
   - [Contenedores](#contenedores)
+- [Prototipo](#prototipo)
+  - [Definición](#definición)
+  - [Desarrollo](#desarrollo)
+  - [Indicaciones](#indicaciones)
+  - [Analizando el fichero Dockerfile](#analizando-el-fichero-dockerfile)
+  - [Comandos](#comandos)
+    - [Básicos](#básicos)
+    - [Construcción de imágen](#construcción-de-imágen)
 
 
 ### Introducción
@@ -152,3 +160,46 @@ Podrías crear tus propias imágenes o usarías estas creadas por otras personas
 Un contenedor es una instancia ejecutable de una imagen. Puedes crear, iniciar, parar, mover o eliminar un contenedor usando la API de Docker o CLI. Puedes conectarte un contenedor a una o más redes, relacionarlo al almacenamiento o incluso crear una nueva imagen basada en el estado actual de la misma.
 Por defecto, un contenedor está relativamente bien aislado de otros contenedores y su host. Puedes controlar como la red, el almacenamiento u otros subsistemas de un contendor está aislado de otros contenedores.
 Un contenedor es definido por su imagen también como sus opciones de configuración proveídas. Cuando un contenedor es removido, ningún cambio es almacenado y la persistencia desaparece.
+
+### Prototipo
+#### Definición
+> Según el sitio web [Curso de Interacción Persona-Ordenador](https://mpiua.invid.udl.cat/)
+>> Un prototipo en sentido genérico es una implementación parcial pero concreta de un sistema o una parte del mismo que principalmente se crean para explorar cuestiones sobre aspectos muy diversos del sistema durante el desarrollo del mismo.
+
+#### Desarrollo
+Se desarrollará un contenedor usando Docker, para instalar un servidor web de la plataforma Node.js, sin ningún tipo de framework. Este mostrará un mensaje de exito al estar funcionando dentro del contenedor.
+
+#### Indicaciones
+Crear un proyecto en vscode de nombre `demostración_docker` con la siguiente estructura:
+
+![Directorio de trabajo](./img/directorio_docker_proyecto.png)
+
+- **app.js**: es el fichero de código fuente en Javascript con el código fuente de nuestro servidor.
+- **Dockerfile**: es el fichero como receta para la construcción de una imágen personalizada.
+- **package.json**: sirve para el manejador de paquetes NPM de Nodejs.
+- **README.md**: información referente del proyecto.
+
+#### Analizando el fichero Dockerfile
+
+```
+FROM node:16-alpine
+ADD . /app
+WORKDIR /app
+CMD [ "node", "app.js" ]
+```
+- FROM indica de dónde se obtendrá la imágen base y en qué versión.
+- ADD copiará todo el directorio a /app del contenedor.
+- WORKDIR indica el directorio de trabajo por defecto del contenedor.
+- CMD ejecuta el proyecto usando el comando `node`.
+
+#### Comandos
+##### Básicos
+...[en construcción]
+##### Construcción de imágen
+- Construir la imagen
+
+`docker build --tag node-docker .`
+
+- Usar la imagen en un determinado puerto
+
+`docker run --name demo_node --network="host" -p 3000:3000 node-docker`
