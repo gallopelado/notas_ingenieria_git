@@ -36,7 +36,7 @@
   - [Analizando el fichero Dockerfile](#analizando-el-fichero-dockerfile)
   - [Comandos](#comandos)
     - [Básicos](#básicos)
-    - [Construcción de imágen](#construcción-de-imágen)
+    - [Construcción de imagen](#construcción-de-imagen)
 
 
 ### Introducción
@@ -194,8 +194,44 @@ CMD [ "node", "app.js" ]
 
 #### Comandos
 ##### Básicos
-...[en construcción]
-##### Construcción de imágen
+- Instalar e iniciar un contenedor
+
+`docker run nombre_imagen`(por ejemplo hello-world)
+
+- Mostrar procesos activos
+
+`docker ps`
+
+- Mostrar **todos** los procesos
+
+`docker ps -a`
+
+- Eliminar un contenedor
+`docker rm id o name`
+
+- Iniciar modo interactivo
+`docker run -it ubuntu`
+
+- Entrar a un contenedor
+`docker exec -it nombre_contenedor bash`
+
+- Inspeccionar un contenedor
+`docker inspect nombre_contenedor`
+
+- Frenar y borrar un contenedor
+`docker stop proxy`
+`docker rm -f alwaysup`
+
+- Iniciar en modo detach(en segundo plano)
+`docker run -d --name nombre_contenedor imagen`
+
+- Exponer a mi computadora el contenedor
+`docker run --name nombre_contenedor -p 8080:80 imagen`
+
+el 8080 indica el puerto de mi computador, el 80 del container
+
+
+##### Construcción de imagen
 - Construir la imagen
 
 `docker build --tag node-docker .`
