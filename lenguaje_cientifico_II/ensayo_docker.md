@@ -1,3 +1,4 @@
+![Caratula](./img/caratula.png)
 #### Índice
 - [Introducción](#introducción)
 - [Planteamiento del problema](#planteamiento-del-problema)
