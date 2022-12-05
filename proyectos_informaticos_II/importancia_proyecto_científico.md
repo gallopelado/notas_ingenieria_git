@@ -20,7 +20,7 @@ Pero para realizar ciencia como aquel cuerpo de conocimientos probados, verifica
 Para hacer ciencia se debe planear con antelación los experimentos, realizarse preguntas, plantearse problemas, elaborar hipótesis, predicciones y evaluar los resultados desde una
 perspectiva escéptica, todo lo citado anteriormente se debe enmarcar en algo llamado **proyecto científico**.
 
-## Partes de de un Proyecto científico
+## Partes de un Proyecto científico
 - El problema
 - La hipótesis
 - El procedimiento
