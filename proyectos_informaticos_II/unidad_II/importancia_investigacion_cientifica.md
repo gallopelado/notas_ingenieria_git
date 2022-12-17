@@ -38,5 +38,7 @@ Nada de esto sería posible sin la llama intensa de la curiosidad humana, la dud
 ## Referencias bibliográficas
 
 > Sagan, C. (2017). El mundo y sus demonios (24.a ed.). Planeta.
+> 
 > Harari, N. Y. (2020). Homo deus: Breve historia del mañana (1ra edición). Penguin Random House Grupo Editorial.
+> 
 > Bunge, M. & Sacristán, M. (2000). La investigación científica: Su estrategia y su filosofía (#REF!). SIGLO XXI Editores.
