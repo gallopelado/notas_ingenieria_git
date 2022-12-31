@@ -20,7 +20,7 @@ Sin olvidar el incidente reciente del cual todavía tenemos secuelas, la pandemi
 
 Todo lo que hemos logrado como especie ha sido gracias a este proceso riguroso de generación y puesta en campaña del mismo a la realidad, sea obteniendo datos del entorno hasta transformándola para lograr nuestros objetivos, es ciencia aplicada al progreso de la civilización.
 
-Córdova trata a eso como el conjunto de *conocimiento empírico -> conocimiento técnico -> conocimiento científico -> conocimiento tecnológico*, esto produce nuevas tecnologías. Es decir, mediante la observación, en su forma básica, tratar de obtener algo de la naturaleza sin la rigurosidad(empirismo) para seguir con la memorización de pasos para seguir extrayendo de la realidad sin el método científico, mejorando nuestra forma de ver el mundo, hacer análisis, descubrir nuevas maneras de tratar con la misma haciendo métodos fiables para terminar en la creación de tecnología.
+Córdoba trata a eso como el conjunto de *conocimiento empírico -> conocimiento técnico -> conocimiento científico -> conocimiento tecnológico*, esto produce nuevas tecnologías. Es decir, mediante la observación, en su forma básica, tratar de obtener algo de la naturaleza sin la rigurosidad(empirismo) para seguir con la memorización de pasos para seguir extrayendo de la realidad sin el método científico, mejorando nuestra forma de ver el mundo, hacer análisis, descubrir nuevas maneras de tratar con la misma haciendo métodos fiables para terminar en la creación de tecnología.
 
 ### Lista de pasos sobre cómo hacer tecnología
 - Observar
